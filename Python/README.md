@@ -59,11 +59,11 @@
 - a module is a kind of container filled with functions - you can pack as many functions as you want into one module and distribute it across the world
 - of course, it's generally a good idea not to mix functions with different application areas within one module (just like in a library - nobody expects scientific works to be put among comic books), so group your functions carefully and name the module containing them in a clear and intuitive way 
 - e.g., don't give the name arcade_games to a module containing functions intended to partition and format hard disks
-![Diagram](Images\ada86cb502a94eccb75497b1c0c31208.png)
+![Diagram](<Images/ada86cb502a94eccb75497b1c0c31208.png>)
 
 ## Creating own modules
 **Folder structure**
-![Folder](Images\4fd776a35a09444594fcdf201c99df89.png)
+![Folder](<Images/4fd776a35a09444594fcdf201c99df89.png>)
 - [Download the modules ](packages)for the practice.
 
 1. While a module is designed to couple together some related entities such as functions, variables, or constants, a package is a container which enables the coupling of several related modules under one common name. Such a container can be distributed as-is (as a batch of files deployed in a directory sub-tree) or it can be packed inside a zip file.

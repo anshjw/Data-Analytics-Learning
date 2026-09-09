@@ -74,6 +74,7 @@ pip install --user pygame
 ```
 
 ## 5. Strings, String & List methods
+### Methods & Functions
 ![ASCII Table](<Images/Screenshot 2026-08-27 102620.png>)
 - **Multiline string**
 - **Operation on strings**
@@ -108,3 +109,18 @@ pip install --user pygame
 - **swapcase()**
 - **title()**
 - **upper()**
+
+### String In Action
+- **Comparing the strings**
+- **Sorting**
+    - **sorted()**: Sorts list in a new list
+    - **sort()**: Sorts orignal list
+- **String vs Numbers**
+    - **Conversion of string to numbers & Vice versa**
+
+### Simple programs
+- **Caesar Cipher**
+    - Encryption
+    - Decryption
+- **The Number Processor**
+- **IBAN Validator**

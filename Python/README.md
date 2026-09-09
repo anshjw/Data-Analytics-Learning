@@ -12,9 +12,7 @@
 - How to use the exception mechanism in Python;
 - How to use generators, iterators, and closures in Python;
 - How to process files.
-
 *The course is divided into four modules:*
-
 - Module 1
     Modules, Packages and PIP;
 - Module 2
@@ -27,28 +25,13 @@
 ## 2. Modules in python  
 
 - Computer code has a tendency to grow. We can say that code that doesn't grow is probably completely unusable or abandoned. A real, wanted, and widely used code develops continuously, as both users' demands and users' expectations develop in their own rhythms.
-- A code which is not able to respond to users' needs will be forgotten quickly, and instantly replaced with a new, better, and more flexible code. Be prepared for this, and never think that any of your programs is eventually completed. The completion is a transition state and usually passes quickly, after the first bug report. Python itself is a good example how the rule acts.
-- Growing code is in fact a growing problem. A larger code always means tougher maintenance. Searching for bugs is always easier where the code is smaller (just as finding a mechanical breakage is simpler when the machinery is simpler and smaller).
-- Moreover, when the code being created is expected to be really big (you can use a total number of source lines as a useful, but not very accurate, measure of a code's size) you may want (or rather, you will be forced) to divide it into many parts, implemented in parallel by a few, a dozen, several dozen, or even several hundred individual developers.
-- Of course, this cannot be done using one large source file, which is edited by all programmers at the same time. This will surely lead to a spectacular disaster.
 
 ### Importing a module
 
 - To make a module usable, you must import it (think of it like of taking a book off the shelf). Importing a module is done by an instruction named import. Note: import is also a keyword (with all the consequences of this fact).
-
-- Let's assume that you want to use two entities provided by the math module:
-
-    - a symbol (constant) representing a precise (as precise as possible using double floating-point arithmetic) value of π (although using a Greek letter to name a variable is fully possible in Python, the symbol is named pi - it's a more convenient solution, especially for that part of the world which neither has nor is going to use a Greek keyboard)
-    - a function named sin() (the computer equivalent of the mathematical sine function)
     ```
     import module
     ```
-    ```
-    import math
-    import sys
-    import math, sys
-    ```
-
 - **Namespace**
 - **Importing Modules Continued**
 - **Aliasing**
@@ -57,11 +40,9 @@
 ## 3. Modules and Packages
 
 - a module is a kind of container filled with functions - you can pack as many functions as you want into one module and distribute it across the world
-- of course, it's generally a good idea not to mix functions with different application areas within one module (just like in a library - nobody expects scientific works to be put among comic books), so group your functions carefully and name the module containing them in a clear and intuitive way 
-- e.g., don't give the name arcade_games to a module containing functions intended to partition and format hard disks
 ![Diagram](<Images/ada86cb502a94eccb75497b1c0c31208.png>)
 
-## Creating own modules
+### Creating own modules
 **Folder structure**
 ![Folder](<Images/4fd776a35a09444594fcdf201c99df89.png>)
 - [Download the modules ](packages)for the practice.
@@ -76,11 +57,8 @@
 ## 4. PIP in Python
 
 - The PyPI repo is sometimes referred to as the Cheese Shop. Really.
-- Does that sound a little strange to you? Don't worry, it’s all perfectly innocent.
 - We refer to the repo as a shop, because you go there for the same reasons you go to other shops: to fulfill your needs. If you want some cheese, you go to the cheese shop. If you want a piece of software, you go to the software shop. Fortunately, the analogy ends here – you don't need any money to take some software out of the repo shop.
-- PyPI is completely free, and you can just pick a code and use it – you’ll encounter neither cashier nor security guard. Of course, it doesn't absolve you from being polite and honest. You have to obey all the licensing terms, so don't forget to read them.
 - It also requires a special tool to make use of it. Fortunately, this tool is also free, so if you want to make your own digital cheeseburger by using the goods offered by the PyPI Shop, you’ll need a free tool named pip.
-
 **Check the version of pip because in not pirated windowsthe pip is pre-installed.**
 ```
 pip --version
@@ -94,61 +72,12 @@ pip help
 pip install pygame
 pip install --user pygame
 ```
-**Simple test program**
-```
-import pygame
-
-run = True
-width = 400
-height = 100
-pygame.init()
-screen = pygame.display.set_mode((width, height))
-font = pygame.font.SysFont(None, 48)
-text = font.render("Welcome to pygame", True, (255, 255, 255))
-screen.blit(text, ((width - text.get_width()) // 2, (height - text.get_height()) // 2))
-pygame.display.flip()
-while run:
-  for event in pygame.event.get():
-   if event.type == pygame.QUIT\
-   or event.type == pygame.MOUSEBUTTONUP\
-   or event.type == pygame.KEYUP:
-    run = False
-```
 
 ## 5. Strings, String & List methods
 ![ASCII Table](<Images/Screenshot 2026-08-27 102620.png>)
 - **Multiline string**
-```
-multiline = '''Line #1
-Line #2'''
-
-print(len(multiline))
-```
 - **Operation on strings**
-```
-str1 = 'a'
-str2 = 'b'
-
-print(str1 + str2)
-print(str2 + str1)
-print(5 * 'a')
-print('b' * 4)
-```
-- **Indexing**
 - **Slices**
-```
-# Slices
-
-alpha = "abdefg"
-
-print(alpha[1:3])
-print(alpha[3:])
-print(alpha[:3])
-print(alpha[3:-2])
-print(alpha[-3:4])
-print(alpha[::2])
-print(alpha[1::2])
-```
 - **in operator**
 - **not in operator**
 - **min()**
@@ -156,3 +85,26 @@ print(alpha[1::2])
 - **index()**
 - **list()**
 - **count()**
+- **Indexing**
+- **len()**
+- **center()**
+- **endswith()**
+- **find()**
+- **isalnum()**
+- **isalpha()**
+- **isdigit()**
+- **islower()**
+- **isspace()**
+- **isupper()**
+- **join()**
+- **lower()**
+- **lstrip()**
+- **replace()**
+- **rfind()**
+- **rstrip()**
+- **split()**
+- **startswith()**
+- **strip()**
+- **swapcase()**
+- **title()**
+- **upper()**

@@ -127,3 +127,10 @@ pip install --user pygame
 - **Anagrams**
 - **Palindrome**
 - **Sudoku**
+
+### Errors
+- Errors
+- Exception
+- Exception Handling
+- Try Block
+- Catch Block

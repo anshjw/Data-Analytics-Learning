@@ -124,3 +124,6 @@ pip install --user pygame
     - Decryption
 - **The Number Processor**
 - **IBAN Validator**
+- **Anagrams**
+- **Palindrome**
+- **Sudoku**

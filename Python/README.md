@@ -140,4 +140,14 @@ pip install --user pygame
 - ``raise`` keyword
 - ``assert`` keyword
 
-### 
+### Important Exceptions
+- **ArithmeticError**
+- **AssertionError**
+- **BaseException**
+- **IndexError**
+- **KeyboardInterrupt**
+- **LookupError**
+- **MemoryError**
+- **OverflowError**
+- **ImportError**
+- **KeyError**

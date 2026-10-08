@@ -137,3 +137,7 @@ pip install --user pygame
 
 ### The Anatomy Of Exception
 ![Exceptions](/Python/Images/dc9bbfeda2014f34b1ff33b04a7ae0e4.png)
+- ``raise`` keyword
+- ``assert`` keyword
+
+### 

@@ -151,3 +151,14 @@ pip install --user pygame
 - **OverflowError**
 - **ImportError**
 - **KeyError**
+
+## 6. Object-Oriented Programming
+
+### Foundation of Obejct-Oriented
+- Basics of OOP
+- Procedural vs Object Oriented 
+- Class Hierarchy
+- Object & It's Use
+- Inheritance
+
+### Procedural to Object-Oriented

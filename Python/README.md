@@ -174,7 +174,7 @@ pip install --user pygame
 - Instance variables
 - Class variables
 
-### OOp: Methods
+### OOP: Methods
 - Methods in detail
 - Classes & Objects in detail
 - Reflection and introspection

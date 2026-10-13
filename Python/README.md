@@ -162,3 +162,11 @@ pip install --user pygame
 - Inheritance
 
 ### Procedural to Object-Oriented
+- Stack
+    - Procedural approach
+    - Object-Oriented approach
+    - Push
+    - Pop
+- Encapsulation
+- Constructor of Class
+

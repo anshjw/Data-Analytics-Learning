@@ -170,3 +170,8 @@ pip install --user pygame
 - Encapsulation
 - Constructor of Class
 
+### OOP: Properties
+- Instance variables
+- Class variables
+
+###

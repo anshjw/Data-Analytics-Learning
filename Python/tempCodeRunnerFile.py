@@ -1,0 +1,2 @@
+class WeekDayError(Exception):
+    pass

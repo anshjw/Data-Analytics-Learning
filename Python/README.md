@@ -193,3 +193,10 @@ pip install --user pygame
 - Single vs Multiple Inheritance
 - Method Resolution Order
 - Diamond Problem
+
+### Exceptions in OOP
+- else keyword
+- finally keyword
+- except keyword
+- as keyword
+![Exceptions Heirarchy](Images/fe30ea2a-8d63-4680-8749-55885dd565ba.png)

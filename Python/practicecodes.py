@@ -146,3 +146,5 @@ class Triangle:
 
 triangle = Triangle(Point(0, 0), Point(1, 0), Point(0, 1))
 print(triangle.perimeter())
+
+

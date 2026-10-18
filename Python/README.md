@@ -188,6 +188,8 @@ pip install --user pygame
 - issubclass()
 - isinstance()
 - is operator
+- Polymorphism
+- Overriding
 - Single vs Multiple Inheritance
 - Method Resolution Order
 - Diamond Problem

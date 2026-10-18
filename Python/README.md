@@ -200,3 +200,22 @@ pip install --user pygame
 - except keyword
 - as keyword
 ![Exceptions Heirarchy](Images/fe30ea2a-8d63-4680-8749-55885dd565ba.png)
+
+## 7. Miscellaneous
+### Generators, Iterators and Clousers
+- Generators
+- Yeild statement
+- List compreshension
+- Lambda function
+    - Lambda with map()
+    - Lambda with filter()
+- Clousers
+
+### Files
+- File names
+- File streams
+    - Opening streams
+    - Cloasing streams
+    - Pre-opened streams
+    - Diagnosing streams
+- File handles 

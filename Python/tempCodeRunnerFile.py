@@ -1,20 +1,26 @@
-import time
+class Fib:
+    def __init__(self, nn):
+        print("__init__")
+        self.__n = nn
+        self.__i = 0
+        self.__p1 = self.__p2 = 1
 
-class TrackedVehicle:
-    def control_track(left, stop):
-        pass
+    def __iter__(self):
+        print("__iter__")
+        return self
 
-    def turn(left):
-        control_track(left, True)
-        time.sleep(0.25)
-        control_track(left, False)
+    def __next__(self):
+        print("__next__")		
+        self.__i += 1
+        if self.__i > self.__n:
+            raise StopIteration
+        if self.__i in [1, 2]:
+            return 1
+        ret = self.__p1 + self.__p2
+        self.__p1, self.__p2 = self.__p2, ret
+        return ret
 
 
-class WheeledVehicle:
-    def turn_front_wheels(left, on):
-        pass
-
-    def turn(left):
-        turn_front_wheels(left, True)
-        time.sleep(0.25)
-        turn_front_wheels(left, False)
+for i in Fib(10):
+    print(i)
+    

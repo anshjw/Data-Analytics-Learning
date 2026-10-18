@@ -219,3 +219,26 @@ pip install --user pygame
     - Pre-opened streams
     - Diagnosing streams
 - File handles 
+- readline() & readlines()
+- bitearray
+
+### os module
+- creating the os module
+- system()
+- deleting directories
+
+### datetime module
+- timestamp & ISO format
+- replace()
+- time module & time object
+- ctime()
+- gmtime() & localtime()
+- asctime() & mktime()
+- strftime() & strptime()
+
+### calendar module
+- setfirstweekday()
+- weekday() & weekheader()
+- itermonthdates() & itermonthdays()
+- monthdays2calendar()
+- isleap() & leapdays()

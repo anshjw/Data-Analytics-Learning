@@ -184,3 +184,10 @@ pip install --user pygame
 - Introspection & Reflection
 ![Introspection & Reflection](Images/e1703fbbabe845fab66ec7e32fcc7690.png)
 
+### OOP: Inheritance
+- issubclass()
+- isinstance()
+- is operator
+- Single vs Multiple Inheritance
+- Method Resolution Order
+- Diamond Problem
